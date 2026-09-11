@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.container{
+    border: 2px solid black;
+    height: 300px;
+    border-radius: 12px;
+    width: 200px;
+    background-color: rgb(80, 77, 77);
+    
+    
+}
+.all-button{
+    gap: 9px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+button{
+    border-radius: 50%;
+    border: none;
+    padding: 12px;
+}
+.input input{
+    text-align: end;
+    font-size: 20px;
+    border: 2px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width:196px;
+    height: 50px;
+    border: none;
+}
